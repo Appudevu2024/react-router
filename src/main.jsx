@@ -26,9 +26,13 @@ const router = createBrowserRouter([
     ],
   },
   
-]);
+],
+{
+  basename: "/react-router", 
+}
+);
 
 createRoot(document.getElementById('root')).render(
   
-  <RouterProvider router={router} />
+  <RouterProvider  router={router} />
 )
