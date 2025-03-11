@@ -1,0 +1,23 @@
+.productsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+   }
+   .productItem{
+   border: 1px solid gray; 
+   border-radius: 10px; 
+   overflow:visible;
+   }
+   .productTitle{
+   
+   }
+   
+   .productImage{
+    width : 100%;
+    height: 300px;
+    object-fit: contain;
+   }
+   .productPrice{
+   
+   }
+   

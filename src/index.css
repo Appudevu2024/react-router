@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerSection{
+    background-color: dimgray;
+    height:80px;
+    padding: 30px;
+   
+}
+.nav-item {
+    color: white;
+    
+    font-weight: bolder;
+}
+.imgElement{
+    width: 400px;
+    height:100vh;
+}
+
+.productImage{
+  
+  height:200px;
+}
+
+.viewButton{
+    text-align: center;
+}
+.footerSection{
+    background-color: dimgray;
+    color: white;
+    height:80px;
+    padding: 20px 40px;
+}
+.productsContainer{
+    margin:0 30px 50px;
+}
